@@ -13,8 +13,8 @@ length = len(a)
 temp = 0
 
 
-for i in range(0, length-1):    # 变量i代表比较的趟数，i等于数组长度-1
-    for j in range(0, length-1-i):  # 变量j代表每趟两两比较的次数
+for i in range(0, length-1):    # 变量i的范围代表比较的趟数，i等于数组长度-1
+    for j in range(0, length-1-i):  # 变量j的范围代表每趟两两比较的次数
         if a[j] > a[j+1]:
             temp = a[j]
             a[j] = a[j+1]
