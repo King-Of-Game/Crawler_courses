@@ -26,7 +26,6 @@ def maopao(a):
     print(a)
 
 
-
 if __name__ == '__main__':
     a = [4, 5, 3, 6, 1, 2]
     maopao(a)
